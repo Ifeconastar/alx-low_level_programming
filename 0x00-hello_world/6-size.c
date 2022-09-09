@@ -1,10 +1,14 @@
 #include <stdio.h>
 /**
  * *  main-Initiates the program
+ * *
  * *  Description-brief description of the task
+ * *
  * *  this program prints "Programming is like building a multilingual puzzle"
+ * *
  * *  Return : Always 0 (Success)
  */
+
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
