@@ -1,4 +1,3 @@
-#include<stdio.h>
 /**
  * *  main-Initiates the program
  * *
@@ -8,6 +7,7 @@
  * *
  * *  Return : Always 0 (Success)
  */
+#include <stdio.h>
 
 int main(void)
 {
