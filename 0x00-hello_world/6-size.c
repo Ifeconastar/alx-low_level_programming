@@ -5,7 +5,7 @@
  * *  this program prints "Programming is like building a multilingual puzzle"
  * *  Return : Always 0 (Success)
  */
-int main(void)
+int main
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 
