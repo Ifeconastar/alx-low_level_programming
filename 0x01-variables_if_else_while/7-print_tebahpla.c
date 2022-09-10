@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <putchar(i)>
 
 /**
  *main -Entry point
@@ -14,6 +15,6 @@ while (i > 96)
 putchar(i);
 i--;
 }
-putchar(100);
+putchar(10);
 return (0);
 }
