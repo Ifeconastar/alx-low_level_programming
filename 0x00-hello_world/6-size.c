@@ -3,9 +3,9 @@
 /**
  * * main - void
  * * Description - prints"the size of various types on the computer"
- * * Return - Always 0 (Success)
+ * * Return - 0 (Success)
  */
-int(void)
+int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
 printf("Size of an int: %d byte(s)\n", sizeof(int));
