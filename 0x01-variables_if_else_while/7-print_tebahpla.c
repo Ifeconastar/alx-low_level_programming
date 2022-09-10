@@ -11,11 +11,9 @@ int main(void)
 int i = 122;
 while (i > 96)
 {
-{
 putchar(i);
-}
 i--;
 }
-putchar(10);
+putchar(100);
 return (0);
 }
