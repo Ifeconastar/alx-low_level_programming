@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <putchar(i)>
 
 /**
  *main -Entry point
@@ -9,12 +8,11 @@
  */
 int main(void)
 {
-int i = 122;
-while (i > 96)
+char ch
+for (ch = 'z'; ch >= 'a'; ch--)
 {
-putchar(i);
-i--;
+putchar(ch);
 }
-putchar(10);
+putchar('\n')
 return (0);
 }
