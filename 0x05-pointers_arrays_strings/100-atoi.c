@@ -29,7 +29,7 @@ break;
 }
 while
 (
-*s++;
-)
+*s++
+);
 return (num *sign);
 }
