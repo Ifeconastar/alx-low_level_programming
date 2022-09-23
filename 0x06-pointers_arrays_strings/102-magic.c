@@ -2,6 +2,8 @@
 #include "main.h"
 /**
  * main - prints 98 followed by a new line
+ *
+ * Return : 0
  */
 int main(void)
 {
@@ -12,7 +14,6 @@ int *p;
 a[2] = 1024;
 p = &n;
 /*
- * main - Prints 98 followed by a new line
  * write your line of code here...
  * Remember:
  * - you are not allowed to use a
