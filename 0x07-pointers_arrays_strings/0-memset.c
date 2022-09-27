@@ -1,4 +1,5 @@
 #include "main.h"
+#include<unistd.h>
 
 /**
  * *_memset - this fills the memory with a constant byte.
