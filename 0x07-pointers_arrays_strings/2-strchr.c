@@ -27,18 +27,14 @@ char *_strchr(char *s, char c)
 	}
 
 /**
-  * if c is '\0', you should return
-  *
-  * the pointer to the '\0' of the
-  *
-  * string s
- */
+ * if c is '\0', you should return
+ * the pointer to the '\0' of the
+ * string s
+*/
 
-	if (*s == c)
-
-		return (s);
-
-	/*return null if not found*/
+if (c == '\0')
+	return (s);
+/*return null if not found*/
 return ('\0');
 
 }
