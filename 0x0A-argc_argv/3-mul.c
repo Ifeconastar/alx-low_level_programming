@@ -8,18 +8,19 @@
  * Return: Always 0 (Success)
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
-(void) argc;
+int i, j, mul;
 
-if (argc < 3)
+if (argc <= 2)
 {
 printf("Error\n");
 return (1);
 }
-else
-{
-printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+i = atoi(argv[1]);
+j = atoi(argv[2]);
+mul = i * j;
+
+printf("%d\n", mul);
 return (0);
 }
-
