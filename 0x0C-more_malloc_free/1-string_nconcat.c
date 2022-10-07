@@ -3,7 +3,7 @@
 
 /**
  * string_nconcat - a function that concatenates two strings
- * 
+ *
  * @s1: string 1
  * @s2: string 2
  * @n: bytes of @s2 to add to @s1 to be a new string
