@@ -12,7 +12,6 @@
  *
  * Return: A pointer to the filled memory area
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 unsigned int i;
@@ -21,7 +20,6 @@ for (i = 0; i < n; i++)
 s[i] = b;
 return (s);
 }
-
 /**
  * _calloc - a function that allocates
  *          memory for an array using malloc
@@ -35,7 +33,6 @@ return (s);
  * Return: pointer with new allocated memory
  *         or NULL if it fails
  */
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 char *p;
