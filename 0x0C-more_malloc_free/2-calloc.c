@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -42,11 +42,9 @@ return (NULL);
 
 p = malloc(nmemb * size);
 if (p == NULL)
-if (p == NULL)
 return (NULL);
 
 _memset(p, 0, nmemb * size);
 
-return (NULL);
+return (p);
 }
-
