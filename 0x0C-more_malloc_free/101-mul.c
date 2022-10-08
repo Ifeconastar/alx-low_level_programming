@@ -59,7 +59,7 @@ return (array);
  */
 
 char *iterate_zeroes(char *str)
-[
+{
 while (*str && *str == '0')
 str++;
 return (str);
@@ -97,7 +97,7 @@ return (digit);
  */
 
 void get_prod(char *prod, char *mult, int digit, int zeroes)
-[
+{
 int mult_len, num, tens = 0;
 
 mult_len = find_len(mult) - 1;
