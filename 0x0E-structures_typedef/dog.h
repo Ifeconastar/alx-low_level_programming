@@ -1,6 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
-#include <stdio.h>
+#ifndef DOG
+#define DOG
 
 /**
  * struct dog - structure for dog data type
